@@ -1,0 +1,220 @@
+.allblock{
+  display: flex;
+  padding: 0 5px;
+  flex-wrap: wrap;
+}
+
+
+.required{
+    color: red;
+    }
+
+.text{
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: 1em;
+    margin: auto;
+}
+
+.block1, .block2, .block3, .block4, .block5{
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+
+.options, input, .choose, .choose2{
+    display: inline-block;
+    width: 220px;
+    font-size: 25px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 8px;
+    border-width: 0px 0px 0.6px 0px;
+    font-weight: 400;
+    vertical-align: 1em;
+
+}
+label{
+
+}
+
+input{
+    vertical-align: 1em;
+    margin-top: 6.7%;
+}
+
+select, .choose{
+  -webkit-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 1px;
+}
+
+.choose{
+    background-color: #F5F6FA;
+    border-radius: 10px;
+    border: 0;
+    color: #C0C1C5;
+    padding: 5px 0 5px 10px;
+    background-position-x: 97%;
+    background-position-y: 9px;
+}
+.choose option{
+    color: black;
+}
+.text1{
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+.text2{
+    font-size: 25px;
+    margin-top: 6%;
+}
+
+.text3{
+    font-size: 25px;
+    margin-top: 46%;
+}
+.registr{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.blocks1{
+display: inline-block;
+text-align: center;
+float: left;
+}
+
+
+.form-text-input-blocks, .form-text-input-blocks1{
+    display: inline-block;
+    text-align: center;
+    width: 68px;
+    font-size: 18px;
+    margin: 30px 5px;
+}
+.form-text-input-blocks1{
+    width: 100px;
+}
+
+
+.blocks2, .blocks3, .blocks4{
+    width: 70px;
+    display: inline-block;
+    border-color: grey;
+    border-radius: 8px;
+    border-width: 0px 0px 0.6px 0px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    }
+.blocks4{
+    width: 100px;
+    margin-top: 5.5%;
+}
+
+.blocks2{
+    margin-top: 5%;
+}
+
+label {
+ display: flex;
+ line-height: 1.2;
+ margin-bottom: 2px;
+ cursor: pointer;
+font-size: 25px;
+
+}
+
+label.checkbox {
+    display: inline-flex;
+    background-color: #F5F6FA;
+    border-radius: 10px;
+    border: 0;
+    color: #C0C1C5;
+    padding: 2px 0 5px 0px;
+    width: 200px;
+
+}
+
+label.checkbox > input {
+    width: 33px;
+    -webkit-transform: scale(1.5);
+    margin-top: 10px;
+}
+    .choose2{
+    background-color: white;
+    border-color: grey;
+    border-radius: 8px;
+    border-width: 0px 0px 0.6px 0px;
+}
+
+
+
+.fa-cloud-upload-alt {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.file-upload input { 
+    opacity: 0;
+}
+.file-upload label{
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.file-upload{
+background-color: #5757d2;
+border-radius: 13px;
+padding: 1px 42px 2px 0;
+color: white;
+font-weight: 700;
+border: none;
+width: 160px;
+cursor: pointer;
+}
+
+.file-upload:hover {
+    background-color: #3d3dbc;
+    transition: 0.2s;
+}
+
+@media (max-width: 1900px){
+.allblock{
+    max-width: 1600px;
+}
+@media (max-width: 1620px){
+.allblock{
+    max-width: 1350px;
+
+}
+@media (max-width: 1375px){
+.allblock {
+    max-width: 1000px;
+}
+
+@media (max-width: 1040px){
+.allblock {
+    max-width: 900px;
+}
+@media (max-width: 940px){
+.allblock {
+    max-width: 810px;
+    
+}
+@media (max-width: 852px){
+.allblock {
+    flex-direction: column;
+    
+}
+
+
+

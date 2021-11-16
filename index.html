@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/2363e64b55.js" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<div class="allblock">
+			<div class="block1">
+				<div>
+					<p class="text"> Type
+					 <span class="required">*</span>
+					</p>
+					</div>
+					<select class="options" >
+				<option value="a1">Tractor</option>
+				<option value="a2">Машина</option>
+				<option value="a3">Фура</option>
+					</select>
+					<div>
+				<label class= "form-label" for="name">SubType<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="name" value="Fake" >
+					</div>
+					<div>
+				<label class= "form-label" for="name1">Specs<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="name1" value="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, voluptates.">
+					</div>
+				<p class="text1">Driver
+				<span class="required">*</span>
+				</p>
+					<select class="choose">
+			<option disabled="disabled" selected="selected" value="a4">Select</option>
+			<option value="a5">car</option>
+			<option value="a6">Фура</option>
+			<option value="a7">Внедорожник</option>
+					</select>
+			</div>
+			<div class="block2">
+				<div>
+				<label class= "form-label" for="name2">Vehicle ID Number (VIN)<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="name2" value="WBA3A5C50123">
+				</div>
+				<div>
+				<label class= "form-label" for="name3">Make<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="name3" value="Fake">
+				</div>
+				<div>
+				<label class= "form-label" for="name4">Modul<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="name4" value="Fake">
+				</div>
+				<div class="blocks1">
+				<label class= "form-label-blocks" for="name5">Year<span class="required">*</span></label>
+				<input class= "form-text-input-blocks" type="text" id="name5" value="2008">
+				</div>
+				<div class="blocks1">
+				<label class= "form-label-blocks" for="name6">GVW<span class="required">*</span></label>
+				<input class= "form-text-input-blocks" type="text" id="name6" value="20092">
+				</div>
+				<div>
+				<p class="text">Unit
+				<span class="required">*</span>
+				</p>
+				<select class="blocks1 blocks2">
+				<option value="a8">LBS</option>
+				<option value="a9">ABC</option>
+				<option value="a10">FCA</option>
+				</select>
+				</div>
+			</div>
+			<div class="block3">
+				<label class= "form-label" for="licence">License Plate<span class="required">*</span></label>
+				<input class= "form-text-input" type="text" id="licence" value="XK-H-2ASDASD">
+				<div>
+				<p class="text1">Port Pass RFID
+				<span class="required">*</span>
+				</p>
+				<label class='checkbox'>
+				<input type="checkbox" />
+				Type here
+				</label>
+				</div>
+				<div>
+				<p class="text2">Ownership
+				<span class="required">*</span>
+				</p>
+				<div>
+				<select class="choose2">
+				<option selected="selected" value="a11">Owned</option>
+				<option value="a12">123</option>
+				</select>
+				</div>
+				</div>
+				<div>
+				<p class="text1">
+				Truck Type
+				<span class="required">*</span>
+				</p>
+				<select class="choose2">
+				<option selected="selected" value="a13">Sleeper</option>
+				<option value="a14">123</option>
+				</select>
+				</div>
+		</div>
+		<div class="block4">
+		<p class="registr">Registraition</p>
+		<p class="text">State
+		<span class="required">*</span>
+		</p>
+		<div>
+		<select class="choose2">
+		<option selected="selected" value="a11">Al - Alabama</option>
+		<option value="a12">123</option>
+		</select>
+		</div>
+		<div>
+		<label class= "form-label" for="date">Date<span class="required">*</span></label>
+		<input class= "form-text-input" type="text" id="date" value="09/01/2018">
+		</div>
+						<div class="blocks1">
+				<label class= "form-label-blocks" for="GV">GVW<span class="required">*</span></label>
+				<input class= "form-text-input-blocks1" type="text" id="GV" value="42283">
+				</div>
+				<div>
+				<p class="text">Unit
+				<span class="required">*</span>
+				</p>
+				<select class="blocks4">
+				<option value="kgs">KGS</option>
+				<option value="abc">ABC</option>
+				<option value="fca">FCA</option>
+				</select>
+				</div>
+		</div>
+		<div class="block5">
+		<p class="text3">Restrictions
+		<span class="required">*</span>
+		</p>
+		<select class="choose2">
+		<option selected="selected" value="a">Highway</option>
+		<option value="a">123</option>
+		</select>
+		<div>ss
+		<label class= "form-label" for="exp">Exp. Date<span class="required">*</span></label>
+		<input class= "form-text-input" type="text" id="exp" value="05/25/2018">
+		</div>
+		<p class="text1">Doc.Image</p>
+		<div class="file-upload">
+		<label><i class="fas fa-cloud-upload-alt"></i>
+		<p class="text">Upload</p>
+		<input  type="file" name="file">
+		</label>
+		</div>
+		</div>
+</div>
+	</form>
+</body>
+</html>
+
